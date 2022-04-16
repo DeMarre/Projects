@@ -1,0 +1,37 @@
+header {text-align:center ;
+  background-color: white;
+height: 50px;}
+P{color:plum;}
+
+    h2{color:plum;background-color:#CA486C;}
+    .items {color: purple;}
+body {color:plum;background-color: grey;}
+    .items {color:plum;}
+    
+    
+.container
+ /* {background-image: url(Homemade-Caramel-Frappe-with-Chocolate-Chips-500x500.png); */ */
+{width:200px}
+
+  p 
+  {text-align: right;
+    font-size: large;
+    font-weight: bolder;}
+    body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    form{font-weight: bold;}
+/* 
+    colors
+    #FFFFFF-white- 255,255,255
+    #E68B96-pink-R217,G143,B151
+    #A7A6A9-grey-R167,G166,B169
+   #CA486C-magenta-R187,G81,B108
+    #251E3B-plum-R36,G30,B57 */
+    
+footer {background-color:white;
+text-align: center;
+height: 20px;}
+
+/* find a better colorscheme maybe? */
+/* wrap img? or width. */
+/* Navbar looks weird.  */
+/* is there a better way */
