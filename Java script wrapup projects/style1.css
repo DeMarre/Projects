@@ -1,0 +1,41 @@
+body {
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* .btn card { display:flex;
+    flex-direction: row;
+   flex: 2; 
+ } */
+
+#alphabetbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10 10px 10px 10;
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+  background: whitesmoke;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  flex: 1 200px;
+  height: 50px;
+  width: 100px;
+}
+/* button:first-child {
+    order: 1;
+   } */
