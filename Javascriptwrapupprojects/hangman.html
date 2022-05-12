@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div>
+    <h1>HangMan!</h1>
+    <br>
+    <p>Use the Alphabet below to guess the word, or click hint to get a clue!</p>
+</div>
+    <!-- alphabet -->
+     
+    <div id="alphabetbtn">
+
+    <button id="alpha" onclick="letter('A')">A</button>
+    <button id="alpha" onclick="letter('B')">B</button>
+    <button id="alpha" onclick="letter('C')">C</button>
+    <button id="aplha" onclick="letter('D')">D</button>
+    <button id="alpha" onclick="letter('E')">E</button> 
+    <button id="alpha" onclick="letter('F')">F</button>
+    <button id="alpha" onclick="letter('G')">G</button>
+    <button id="alpha" onclick="letter('H')">H</button>
+    <button id="alpha" onclick="letter('I')">I</button>
+    <button id="alpha" onclick="letter('J')">J</button>
+    <button id="alpha" onclick="letter('K')">K</button>
+    <button id="alpha" onclick="letter('L')">L</button>
+    <button id="alpha" onclick="letter('M')">M</button>
+    <button id="alpha" onclick="letter('N')">N</button>
+    <button id="alpha" onclick="letter('O')">O</button>
+    <button id="alpha" onclick="letter('P')">P</button>
+    <button id="alpha" onclick="letter('Q')">Q</button>
+    <button id="alpha" onclick="letter('R')">R</button>
+    <button id="alpha" onclick="letter('S')">S</button>
+    <button id="alpha" onclick="letter('T')">T</button>
+    <button id="alpha" onclick="letter('U')">U</button>
+    <button id="alpha" onclick="letter('V')">V</button>
+    <button id="alpha" onclick="letter('W')">W</button>
+    <button id="alpha" onclick="letter('X')">X</button>
+    <button id="alpha" onclick="letter('Y')">Y</button>
+    <button id="alpha" onclick="letter('Z')">Z</button>
+   
+</div>
+</div>
+<br>
+<p>Categories:</p>
+<div id="categories"></div>
+<br>
+<div class="underscore">_ _ _ _ _ _</div>
+
+
+<div id="myLives"></div>
+<p id="lives">You have 10 lives left.</p>
+<!-- 10 needs to go down each lost -->
+<br>
+<div id="hints"></div>
+<p>CLUE!</p>
+<!-- document.query.selector for hint? -->
+<br>
+
+<!-- picture box of hangman -->
+
+
+<!-- event listeners needed -->
+<!-- Action that should be performed when a user clicks a button
+Content that should be verified when a user inputs data -->
+
+<div class="btn card">
+<button onclick="giveHints()">Hint</button>
+<br>
+<button onclick="reset()">Play Again</button>
+</div>
+
+
+    <script src="script1.js"></script>
+</body>
+</html>
